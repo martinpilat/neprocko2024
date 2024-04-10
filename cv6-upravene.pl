@@ -1,5 +1,5 @@
 % presunuti grafu jako prvniho parametru nam umozni vynechat vsude jeden parametr
-% muzeme potom predikat volat jako call(hrana(grafSH(V, H), U, V))
+% muzeme potom predikat volat jako call(hrana(grafSH(V, H), A, B))
 % predikat pro hranu, ukazka pouziti call pro castecne aplikovani paramteru
 hrana(grafSH(_, SH), A, B):-member(A-B, SH).
 
